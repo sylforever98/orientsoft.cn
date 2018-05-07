@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OrientSoft</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- charts -->
+  <script type="text/javascript" src="js/charts/highcharts.js"></script>
+  <script type="text/javascript" src="js/charts/exporting.js"></script>
+  <script src="js/orientCharts.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="loading">
+  <iframe src="image/imgBg/5/loading.html" frameborder="0" scrolling="no"></iframe>
+</div>
+<div class="load-cont">
+  <div class="homeBg">
+    <iframe src="image/imgBg/6/bg1.html" frameborder="0" scrolling="no"></iframe>
+  </div>
+  <header>
+    <nav class="navbar navbar-static-top navbar-default orientNav">
+      <div  class="container">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand orientNavLogo" href="index.html">ORIENT SOFT</a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active activeBg"><a href="index.html">首页<span class="sr-only">(current)</span></a></li>
+              <li><a href="service.html">产品服务</a></li>
+              <li><a href="success.html">成功案例</a></li>
+              <li><a href="contact.html">联系我们</a></li>
+              <li><a href="about.html">关于我们</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </div>
+    </nav>
+  </header>
+  <!-- myModalLabel -->
+  <div class="modal fade bs-example-modal-lg" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg ser-modal" role="document">
+      <div class="modal-content">
+        <p class="p6 demo-header-color-box3">
+          <span class="glyphicon glyphicon-play-circle"> </span> Voyager介绍视频
+        </p>
+        <div class="modal-body">
+          <div class="easyhtml5video">
+            <video id="videoR" poster="media/Voyager.jpg" title="video" controls="controls" loop="loop" autoplay="autoplay">
+              <source src="media/Voyager.m4v" type="video/mp4" />
+              <source src="media/Voyager.webm" type="video/webm" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section>
+    <div class="homeTop animated fadeInDown">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>我们一直专注于数据服务</h1>
+            <p>数据分析是为了帮助发现人类无法用经验和直觉总结的真相</p>
+            <div class="btnbox">
+              <a class="orientHomeBtn" href="service.html">了解详情</a>
+              <a style="cursor:pointer" class="orientHomeBtn2" data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-play-circle"> </span> Voyager 介绍视频</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="animated fadeInLeft orient-about" id="orient-about">
+    <h1 class="text-center h1a">欧润特为您提供专业的服务</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="zyfubox">
+            <div class="col-sm-3 text-center">
+              <span class="glyphicon glyphicon-globe"></span>
+            </div>
+            <div class="col-sm-9">
+              <p class="p9">大数据服务</p>
+              <p class="p10">为客户提供一体化大数据解决方案，全面集成数据开发、管理、分析、挖掘、共享.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="zyfubox">
+            <div class="col-sm-3 text-center">
+              <i class="iconfont">&#xe60d;</i>
+            </div>
+            <div class="col-sm-9">
+              <p class="p9">移动平台开发</p>
+              <p class="p10">移动 APP 开发、测试、运营及运维，协助客户快速搭建稳定高质量的移动应用.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="zyfubox">
+            <div class="col-sm-3 text-center">
+              <i class="iconfont">&#xe612;</i>
+            </div>
+            <div class="col-sm-9">
+              <p class="p9">安全稳定</p>
+              <p class="p10">我们的产品高安全规格，并在开发、运营过程中给客户提供有效的针对性的解决方案.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="zyfubox">
+            <div class="col-sm-3 text-center">
+              <i class="iconfont">&#xe600;</i>
+            </div>
+            <div class="col-sm-9">
+              <p class="p9">组件定制</p>
+              <p class="p10">数据可视化服务为您提供丰富的组件，并根据您的需求给出针对性的建议.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="zyfubox">
+            <div class="col-sm-3 text-center">
+              <span class="glyphicon glyphicon-briefcase"></span>
+            </div>
+            <div class="col-sm-9">
+              <p class="p9">运维管理</p>
+              <p class="p10">从合作开始就一直为您提供贴心到家的运维服务，应用更迭、持续发布和部署.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="zyfubox">
+            <div class="col-sm-3 text-center">
+              <span class="glyphicon glyphicon-send"></span>
+            </div>
+            <div class="col-sm-9">
+              <p class="p9">技术支撑</p>
+              <p class="p10">欧润特OrientBoard、APIbus、Conalog等众多产品为您的数据从头到尾贴心服务.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="animated fadeInLeft jjfabox" id="animated">
+    <div class="container">
+      <h1 class="text-center h1a">基于欧润特团队开发的强大产品资源</h1>
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <div class="homeRoundBox box1">
+              <a href="service.html#orientboard">
+                <div class="serfont0 fontcolor7 text-center">
+                  <i class="iconfont">&#xe608;</i>
+                </div>
+              </a>
+            </div>
+            <div class="caption">
+              <h3>ORIENT BOARD</h3>
+              <p>通用型数据可视化平台<br>
+                支持多种可视化组件、数据推送方式
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <div class="homeRoundBox">
+              <a href="service.html#apibus">
+                <div class="serfont0 fontcolor9 text-center">
+                  <i class="iconfont">&#xe606;</i>
+                </div>
+              </a>
+            </div>
+            <div class="caption">
+              <h3>APIBus</h3>
+              <p>
+                API开发和管理总线 <br>
+                支持多种协议的接入、快速解析数据包
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <div class="homeRoundBox box3">
+              <a href="service.html#conalog">
+                <div class="serfont0 fontcolor8 text-center">
+                  <i class="iconfont">&#xe604;</i>
+                </div>
+              </a>
+            </div>
+            <div class="caption">
+              <h3>Conalog</h3>
+              <p>数据采集和格式化解决方案<br>
+                稳定高效、灵活部署、基于开源技术
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="chartPic">
+    <h1 class="text-center h1a">丰富的图表供您选择</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <div class="homechartsfade  animated fadeInLeft">
+            <div id="myCarousel" class="carousel"  data-ride="carousel" data-interval="1000">
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+              </ol>
+              <!-- 轮播（Carousel）项目 -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div id="orientCharts1" class="orientCharts"></div>
+                </div>
+                <div class="item">
+                  <div id="orientCharts2" class="orientCharts"></div>
+                </div>
+                <div class="item">
+                  <div id="orientCharts3" class="orientCharts"></div>
+                </div>
+                <div class="item">
+                  <div id="orientCharts4" class="orientCharts"></div>
+                </div>
+                <div class="item">
+                  <div id="orientCharts5" class="orientCharts"></div>
+                </div>
+                <div class="item">
+                  <div id="orientCharts6" class="orientCharts"></div>
+                </div>
+              </div>
+              <!-- 轮播（Carousel）导航 -->
+              <a class="carousel-control left orient-carousel-b" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-menu-left"></span></a>
+              <a class="carousel-control right orient-carousel-b" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-menu-right"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xs-12 chartPicText  animated fadeInRight">
+          <h2>直观 / 强大 / 跨平台</h2>
+          <p>让数据分析变得简单，支撑多个实时数据流的智能解析和展现 /
+            强大的分析工具，动态筛选数据，深入的组群分析 /
+            深入您的数，一键预测，统计总结，运行趋势分析、回归、关连 /
+            助力数据相关研究，研究成果就内置在您的工作流中 /
+            优化配色方案，自动图表类型，最有效的方式传达见解 /
+            人性化界面，高效精准的操作，跨平台 /
+            丰富的可视化数据建模工具，数据随心所欲
+            <br>
+            <small>* 图表演示为示例内容</small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="home-bt-bg">
+    <iframe src="image/imgBg/6/bg2.html" frameborder="0" scrolling="no"></iframe>
+  </div>
+  <section>
+    <div class="row">
+      <div class="col-sm-12 testbug">
+        <div class="homeTest">
+          <h2>一起探索数据的更多可能</h2>
+          <h5>助力您的生产力，质的改变</h5>
+          <a class="orientHomeBtn3" href="service.html">了解产品服务</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footerBg">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <h4>关于我们</h4>
+          <a href="about.html"><p>开发团队</p></a>
+          <a href="about.html"><p>组织架构</p></a>
+          <a href="about.html"><p>发展历程</p></a>
+        </div>
+        <div class="col-sm-3">
+          <h4>业务支持</h4>
+          <a href="service.html"><p>产品服务</p></a>
+          <a href="success.html"><p>成功案例</p></a>
+          <a href="service.html#serMod"><p>项目管理</p></a>
+        </div>
+        <div class="col-sm-3">
+          <h4>联系我们</h4>
+          <a href="contact.html"><p>公司地址</p></a>
+          <a href="contact.html"><p>联系方式</p></a>
+          <a href="about.html"><p>加入我们</p></a>
+        </div>
+        <div class="col-sm-3 contactPhone">
+          <h3>028-84118086</h3>
+          <P>周一至周日 8:00-18:00</P>
+        </div>
+      </div>
+      <div class="informationFoot">
+          ©2016 四川欧润特软件科技有限公司 | 备案号：蜀ICP备13006870号
+      </div>
+    </div>
+  </footer>
+</div>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/loading.js"></script>
+</body>
+</html>
